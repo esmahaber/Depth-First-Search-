@@ -1,0 +1,114 @@
+.table-array{
+    width: 500px;
+    margin-left: 50px;
+}
+.form-control{
+    width: 500px;
+}
+.table-array-one{
+    width: 200px;
+    margin-left: 50px;
+}
+.table-array-two{
+    width: 100px;
+    margin-left: 50px;
+}
+.table-array-three{
+    width:50px;
+    margin-left: 50px;
+}
+
+.compare-one{
+  margin-left: 50px;
+}
+.compare-two{
+  margin-left: 50px;
+}
+.compare-three{
+  margin-left: 50px;
+}
+
+body {
+    background-color: #dbdbdb !important;
+    font: 300 100.1% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+}
+
+#holder {
+    width: 70%;
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    border-radius: 25px;
+    height: 400px;
+  transition: all .3s;
+}
+#copy {
+    bottom: 0;
+    font: 300 .7em "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+    position: absolute;
+    right: 1em;
+    text-align: right;
+}
+#copy a {
+    color: lightblue;
+}
+
+.blog-slider-button{
+    margin: 10px;
+    display: inline-flex;
+    background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+    padding: 15px 35px;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    position:absolute;
+     bottom:0; 
+     right:0;
+    box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
+    text-decoration: none;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+    
+}
+svg{
+    height: 400px !important;
+    margin: 0px !important;
+    float: left !important;
+}
+.description{
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.stack{
+    float: left;
+    margin: 20px;
+    width: 80px;
+    height: 150px;
+    border-bottom: 5px solid #616161;
+    border-left: 5px solid #616161;
+    border-right:  5px solid #616161;
+    text-align: center;
+    
+}
+#stackText{
+ -ms-transform: rotate(270deg); 
+-moz-transform: rotate(270deg);
+-webkit-transform: rotate(270deg);
+transform: rotate(270deg);
+bottom: 0px;
+margin-bottom: 1px;
+}
+.pcode{
+width: 250px;
+}
